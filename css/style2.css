@@ -1,0 +1,263 @@
+body{
+    background-image: url(../assets/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*index*/
+.menuCabezera 
+{   
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    background-color: rgba(86, 128, 15, 0.404);
+    position: relative;
+    text-align: center;
+}
+
+.logoCabezera nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+.textoMain{
+    padding: 20px;
+    text-align: center;
+    font-style:unset;
+    font-size: 30px;
+    color: green;
+    font-family: "parisienne";  
+}
+
+.videoMain
+{
+    padding: 30px;
+    display: flex;
+    justify-content:center;    
+}
+
+.contendoresFooters
+{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    align-items: baseline; 
+}
+.facebook{
+    
+    font-family: "parisienne";
+    font-size: 20px;
+
+}
+.instagram{ 
+    
+    font-family: "parisienne";
+    padding: 10px;
+    font-size: 20px;
+}
+.mapa{
+    
+    padding: 10px;
+    
+}
+/* quienes somos*/
+
+@media only screen and(min-width:0px)and(max-width:768px)
+{
+    .contenedorPadre
+    {
+    display: grid;
+    grid-template-areas: 
+    "logoAguaCanta"
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 100%;
+    grid-template-columns: 15% 13% 40% auto;
+    }
+
+.LogoAguaCanta
+{
+    
+    grid-area: LogoAguaCanta;
+}
+header
+{
+    grid-area: header;
+}
+main
+{
+    grid-area: main;
+}
+footer
+{
+    grid-area: footer;
+}
+    /*mobile index*/
+
+    
+    /*mobile qs*/
+
+    header
+    {
+    grid-area: header;
+    }
+
+    .gridBox1{
+        grid-area: gridbox1;
+    }
+    
+    .gridBox2{
+        grid-area: gridbox2;
+    }
+
+    footer
+    {
+    grid-area: footer;
+    }
+} 
+/*mobile*/
+@media only screen and(min-width:0px)and(max-width:768px)
+{
+    .contenedorPadre2
+    {
+    display: grid;
+    grid-template-areas: 
+    "logoAguaCanta"
+    "header"
+    "gridBox1"
+    "gridBox2"
+    "footer";
+    grid-template-rows: 100%;
+    grid-template-columns: 15% 13% 30% 30% auto;
+    }
+
+    .descripcionQs1{
+        font-size: 15px;
+    }
+    .descripcionQs2{
+        font-size: 15px;
+    }
+}
+/*tablet*/
+@media only screen and(min-width:1024px)
+{
+    .contenedorPadre
+    {
+        display: grid;
+        grid-template-areas:
+        "header header header header"
+        "LogoAguaCanta LogoAguaCanta LogoAguaCanta LogoAguaCanta"
+         "main main main main"
+         "footer footer footer footer";
+        grid-template-rows: 1fr 2fr 4fr 3fr;
+        grid-template-columns: 5% auto auto 5%;
+    }
+
+    .contenedorPadre2
+    {
+        display: grid;
+        grid-template-areas:
+        "header header header header header"
+        "LogoAguaCanta LogoAguaCanta LogoAguaCanta LogoAguaCanta LogoAguaCanta"
+        "gridbox1 gridbox1 gridbox1 gridbox1 gridbox1"
+        "gridbox2 gridbox2 gridbox2 gridbox2 gridbox2"
+        "footer footer footer footer footer";
+        grid-template-rows: 1fr 2fr 3fr 3fr 2fr;
+        grid-template-columns: 10% 0.5% auto auto 5%;
+    }
+
+
+.gridBox1{
+        grid-area: gridbox1;
+    }
+    
+.gridBox2{
+        grid-area: gridbox2;
+    }
+
+}
+/*desktop*/
+
+.gridBox1{
+    grid-area: gridbox1;
+}
+
+.gridBox2{
+    grid-area: gridbox2;
+}
+
+.positionBox1
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.positionBox2
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.LogoAguaCanta
+{
+    padding: 10px;
+    grid-area: LogoAguaCanta;
+}
+
+.logoCabezera
+{
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+}
+.fotoQs1{
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+}
+
+.fotoQs2
+{
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+}
+
+.descripcionQs1
+{
+   padding: 30px;
+    text-align: center;
+    font-style:unset;
+    font-size: 20px;
+    color: green;
+    font-family: "parisienne";
+}
+
+.descripcionQs2
+{
+    padding: 30px;
+    text-align: center;
+    font-style:unset;
+    font-size: 20px;
+    color: green;
+    font-family: "parisienne";
+}
+
+.footerLogos{
+    background-color: rgba(86, 128, 15, 0.404);
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+a{
+    text-decoration:none;
+    color: white;
+}

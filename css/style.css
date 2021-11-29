@@ -1,0 +1,305 @@
+body{
+    background-image: url(../assets/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 932px;
+    width: 1881px;
+}
+
+/* index pag */
+.menuCabezera 
+{   
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    background-color: rgba(86, 128, 15, 0.404);
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    
+}
+.logoCabezera{
+    position: relative;
+    
+}
+
+.videoMain
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 1200px;
+    justify-content: center;    
+}
+.logoCabezera nav
+{
+    position: relative;
+    width: 40%;
+    left: 43%;
+}
+.mapa{
+    position: relative;
+    padding: 10px;
+    
+    justify-content: end;
+    
+}
+.facebook{
+    position: relative;
+    padding: 10px;
+    font-family: "parisienne";
+    font-size: 20px;
+
+}
+.instagram{
+    
+    font-family: "parisienne";
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.footerLogos{
+    background-color: rgba(86, 128, 15, 0.404);
+}
+
+.contenoderesFooters
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: end;
+}
+
+.aguacanta{
+    position: relative;
+    padding: 10px;    
+}
+.textoMain{
+    text-align: center;
+    font-style:unset;
+    font-size: 30px;
+    color: green;
+    font-family: "parisienne";  
+}
+
+
+/* quienes somos pag */
+
+.fotoQs1{
+    position: relative;
+    padding: 10px;
+    left: 0,1%;
+    width: 800px;
+    height: 600px;
+}
+.fotoQs2{
+    position: relative;
+    padding: 10px;
+    left: 55.9%;
+    top:  20%;
+    width: 800px;
+    height: 600px
+}
+
+.descripcionQs1
+{
+    position: relative;
+    width: 800px;
+    height: 200px;
+    top: 10%;
+    left: 53%;
+    bottom: 17%;
+    margin-top: -537px;
+    padding-bottom: 285px;
+    text-align: center;
+    font-style:unset;
+    font-size: 35px;
+    color: green;
+    font-family: "parisienne";
+}
+
+.descripcionQs2
+{
+    position: relative;
+    top: 10%;
+    width: 800px;
+    height: 200px;
+    left: 2%;
+    bottom: 17%;
+    margin-top: -475px;
+    padding-bottom: 246px;
+    text-align: center;
+    font-style:unset;
+    font-size: 35px;
+    color: green;
+    font-family: "parisienne";
+}
+
+/* hoteleria pag */
+.descripcionEventos1
+{
+    text-align: center;
+    font-style:unset;
+    font-size: 35px;
+    color: green;
+    font-family: "parisienne";
+}
+
+.descripcionEventos2
+{
+    text-align: center;
+    font-style:unset;
+    font-size: 35px;
+    color: green;
+    font-family: "parisienne";
+}
+
+.pictureBox{
+    padding: 150px;
+    position: relative;
+   
+}
+
+.fotosHoteleria1{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    padding-top: 20px;
+}
+.fotosHoteleria2{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    padding-top: 20px;
+}
+.fotosHoteleria3{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    padding-top: 20px;
+}
+.fotosHoteleria4{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    padding-top: 20px;
+}
+
+/* eventos pag*/
+
+.pictureBox2{
+    padding: 20px;
+    position: relative;
+    width: 1200px;
+    height: 432px;
+    left: 19%;
+}
+
+.fotosEventos1
+{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    padding-top: 20px;
+}
+.fotosEventos2
+{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    padding-top: 20px;
+}
+.fotosEventos3
+{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    padding-top: 20px;
+}
+
+/*contacto pag*/
+
+.pictureBox3
+{
+    position: relative;
+    width: 800px;
+    height: 200px;
+    left: 53%;
+    top: 5%;
+    bottom: 17%;
+    padding-bottom: 285px;
+    font-style:unset;
+    font-size: 25px;
+    color: green;
+    font-family: "parisienne";
+}
+
+.formEventos
+{
+    position: relative;
+    top: 0%;
+    width: 800px;
+    height: 947px;
+    left: 4%;
+    bottom: 17%;
+    margin-top: -467px;
+    font-style:unset;
+    font-size: 15px;
+    color: green;
+    font-family: "parisienn";
+}
+
+.descripcionForm
+{
+    font-style:unset;
+    font-size: 33px;
+    color: green;
+    font-family: "parisienne";
+}
+
+.buttonsContactos
+{
+    position: relative;
+    width: 800px;
+    height: 200px;
+    left: 53%;
+}
+
+.descripcionButtons
+{
+    font-style:unset;
+    text-align: left;
+    font-size: 15px;
+    color: green;
+    font-family: "parisienne";
+}
+
+
+
+@font-face {
+	font-family: "parisienne";
+	src: url("../assets/fuentes/Parisienne-Regular.ttf");
+}
+ 
+li{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+article{
+    display: inline-block;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+
+
+
+    
+
+
+
