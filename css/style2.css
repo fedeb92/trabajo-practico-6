@@ -1,10 +1,14 @@
 body{
-    background-image: url(../assets/background2.jpg);
+    /*background-image: url(../assets/background2.jpg);*/
+
+    background-image: linear-gradient(to bottom, #fdfffd, #f2f7f2, #e8eee6, #dee6db, #d5ddcf, #cbd5c1, #c1ccb3, #b7c4a5, #aaba90, #9eb17c, #92a767, #869d52);    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+
 }
+
 /*index*/
 .menuCabezera 
 {   
@@ -140,6 +144,14 @@ footer
     .descripcionQs2{
         font-size: 15px;
     }
+
+    a:hover 
+    {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #9bca2c;
+    -webkit-box-shadow: 0px 0px 15px 15px #dcee8d;
+    }
 }
 /*tablet*/
 @media only screen and(min-width:1024px)
@@ -178,6 +190,14 @@ footer
         grid-area: gridbox2;
     }
 
+}
+
+a:hover 
+{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #9bca2c;
+    -webkit-box-shadow: 0px 0px 15px 15px #dcee8d;
 }
 /*desktop*/
 
@@ -221,6 +241,8 @@ footer
     padding: 10px;
 }
 
+
+
 .fotoQs2
 {
     width: 30%;
@@ -249,7 +271,7 @@ footer
 }
 
 .footerLogos{
-    background-color: rgba(86, 128, 15, 0.404);
+    background-color: rgba(103, 128, 61, 0.26);
 }
 
 li{
@@ -257,7 +279,7 @@ li{
     position: relative;
     padding: 10px;
 }
-a{
+a {
     text-decoration:none;
     color: white;
 }
